@@ -14,6 +14,7 @@ const getCurrentUser = () => {
 }
 
 app.use('/static', express.static(path.join(__dirname, './dist/static')))
+
 app.get('/me', (req, res) => {
   getCurrentUser().then((currentUser) => {
     res.json(currentUser)
@@ -22,6 +23,7 @@ app.get('/me', (req, res) => {
     res.sendStatus(500)
   })
 })
+
 app.get('*', (req, res) => {
   getCurrentUser().then((currentUser) => {
     const store = { currentUser }
