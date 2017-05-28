@@ -12,8 +12,6 @@
   "dependencies": {
     "axios": "^0.15.3",
     "express": "^4.14.0",
-    "jquery": "^3.1.1",
-    "semantic-ui-css": "^2.2.4",
     "vue": "^2.1.0",
     "vue-router": "^2.1.1",
     "vue-server-renderer": "^2.1.4"

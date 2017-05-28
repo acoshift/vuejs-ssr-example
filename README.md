@@ -1,18 +1,11 @@
 # vuejs-ssr-example
 
-> Vuejs SSR Example
+## How to Run
 
-## Build Setup
+1. Install node_modules by `yarn` or `npm`
 
-``` bash
-# install dependencies
-npm install
+1. Build Our Vue App `npm run build`
 
-# serve with hot reload at localhost:8080
-npm run dev
+1. Start server `node server.js`
 
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1. Go to `http://localhost:8080` to see result
